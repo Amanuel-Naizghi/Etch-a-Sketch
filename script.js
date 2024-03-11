@@ -51,7 +51,9 @@ function createGridStructure(){
         let elementsNodeList=document.querySelectorAll("#element"); 
         elementsNodeList.forEach(element=>{
             element.addEventListener("mouseover",(e)=>{
-                e.target.style.background="black";
+                let colorArray=["red","green","blue","black","yellow"];
+                let color=colorArray[Math.floor(Math.random()*5)];
+                e.target.style.background=color;
             });
         });
     }
