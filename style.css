@@ -1,0 +1,38 @@
+body{
+    background:#944E63;
+}
+#container{
+    width:500px;
+    height:500px;
+    flex:1;
+}
+#content{
+    display:flex;
+}
+#subContainer{
+    display:flex
+}
+#element{
+    background-color:grey;
+    border:0.5px solid brown;
+    margin:0px;
+    box-sizing: border-box;
+}
+button{
+    margin:0 0 5px 8px; 
+}
+h1{
+    text-align:center;
+}
+p{
+    font-family: "Sacramento", cursive;
+    color:white;
+}
+#phrase{
+    align-self:center;
+    font-size:30px;
+    flex:1;
+}
+#heading{
+    margin:15px 0 15px 0;
+}
